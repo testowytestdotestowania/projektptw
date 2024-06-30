@@ -1,0 +1,34 @@
+include 'db.php';
+session_start();
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regulamin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.php">Strona Główna</a>
+        <a href="search.php">Wyszukiwanie</a>
+        <a href="users.php">Użytkownicy</a>
+        <a href="rules.php">Regulamin</a>
+        <?php if (isset($_SESSION['username'])): ?>
+            <a href="profile.php">Profil</a>
+            <a href="logout.php">Wyloguj</a>
+        <?php else: ?>
+            <a href="register.php">Rejestracja</a>
+            <a href="login.php">Logowanie</a>
+        <?php endif; ?>
+    </nav>
+
+    <h1>Regulamin</h1>
+    <div class="content">
+        <p>1. Szanuj innych użytkowników.</p>
+        <p>2. Nie spamuj.</p>
+        <p>3. Przestrzegaj prawa.</p>
+        <p>4. Unikaj wulgaryzmów.</p>
+        <p>5. Publikuj tylko zgodne z tematyką treści.</p>
+    </div>
+</body>
+</html>

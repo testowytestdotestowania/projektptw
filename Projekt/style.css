@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.webp")
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 100px;
+    width: 250px;
+}
+
+.rules {
+    margin-left: 100px;
+}
+
+.comment-info {
+    display: flex;
+    align-items: center;
+}
+
+.comment-info .avatar {
+    margin-right: 8px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+form {
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.add {
+    margin-left: 100px;
+}
+
+.top {
+    margin-left:48%;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.content {
+    margin: 20px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
